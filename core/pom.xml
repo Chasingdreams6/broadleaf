@@ -42,9 +42,18 @@
             <groupId>org.broadleafcommerce</groupId>
             <artifactId>broadleaf-sample-payment-gateway</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.broadleafcommerce</groupId>-->
+<!--            <artifactId>broadleaf-boot-starter-hsql-database</artifactId>-->
+<!--        </dependency>-->
+        <!-- replace the default database with mysql -->
         <dependency>
             <groupId>com.broadleafcommerce</groupId>
-            <artifactId>broadleaf-boot-starter-hsql-database</artifactId>
+            <artifactId>broadleaf-boot-starter-database</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
 </project>
